@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.app {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.container {
+    max-width: 65rem;
+}
+
+.header {
+    background: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.search-input {
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: .5rem;
+    margin: .8rem .2rem .8rem 0;
+}
+
+.search-button {
+    border: none;
+    background: white;
+    color: black;
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.recipe-list {
+    width: 100%;
+    padding: 1rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.each-recipe {
+    line-height: 2;
+    max-width: 20rem;
+    min-height: 40rem;
+    font-size: 1rem;
+    border: none;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.137);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.recipe-ingredient {
+    text-decoration: none;
+    text-align: initial;
+    padding: 1.4rem;
+    display: none;
+}
+
+.each-recipe:hover .recipe-ingredient {
+    display: block;
+}
+
+.recipe-img {
+    border-radius: 5px;
+}
+
+.recipe-title {
+    font-family: 'Brush Script MT', 'cursive';
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+.see-more {
+    background: none;
+    font-family: 'Brush Script MT', 'cursive';
+    color: red;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.see-more:hover {
+    color: black;
+}
